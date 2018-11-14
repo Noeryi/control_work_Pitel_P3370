@@ -1,37 +1,47 @@
+/* CSS files add styling rules to your content */
+
 nav{
+  padding: 0;
   position: fixed;
-  background-color: red;
-  width: 7%;
+  background-color: #A52A2A	;
+  /*width: 7%;*/
   left: 0;
 }
 nav a{
   color: white;
 }
-nav ul > li{
-  display: inline-block;
+
+nav ul {
+  list-style: none;
+  margin: 7px;
 }
 
 section > div{
   display: inline-block;
-  height: 70%;
-  border: 5px solid black;
+  width: 500px;
+  border: 5px solid #808080;
   background-color: #7FFFD4	;
   color: #7FFFD4	;
-  font-size: 300px
+  font-size: 100px
 }
 
 section{
+  box-sizing: border-box;
   border: 10px solid grey;
-  width: 92%;
-  height: 500px;
+  /*width: 1200px;
+  height: 500px;*/
   text-align: center;
+  padding: 10px;
 }
+
+
+
 
 td, th{
   border: 5px solid black; 
 }
 td{
-  padding: 118px;
+  padding: 70px;
 }
 #cell_1{
   background-color: #00FFFF	;
@@ -66,5 +76,4 @@ td{
 #cell_11{
   background-color: #7B68EE	;
 }
-
 
